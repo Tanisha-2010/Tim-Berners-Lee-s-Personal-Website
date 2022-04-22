@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    margin: 0px;
+    padding-top: 600px;
+}
+
+#imgPhoto {
+    width: 220px;
+    height: 270px;
+    border-radius: 200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+#welcome {
+    z-index: 9;
+    position: absolute;
+    bottom: 0;
+    background: linear-gradient(#F2CB05 0%, #029E7B 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+
+.parallax-inner {
+    display: table-cell;
+    vertical-align: center;
+    position: relative;
+    scroll-behavior: smooth;
+}
+
+.line {
+    height: 5px;
+    width: 70px;
+    background-color: black;
+    margin: 10px auto;
+}
+
+h1 {
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#name {
+    font: size 45px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#bio {
+    font-family: 'Times New Roman', Times, serif;
+    padding: 50px;
+    font-size: 20px;
+    background: linear-gradient( #C5CAE9 0%, #FFCCBC 100%);
+}
+
+.menu {
+    z-index: 10;
+    list-style: none;
+    position: fixed;
+    top: 0px;
+    cursor: pointer;
+    font-family: 'Dancing Script', cursive;
+    background: white;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.links {
+    padding: 5px;
+    font-size: 25px;
+    font-family: fantasy;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    font-size: 35px;
+}
+
+#videos {
+    background: linear-gradient(#FFCCBC 0%, #FFF9C4 100%);
+}
+
+#work {
+    background: linear-gradient(#FFF9C4 0%, #E1BEE7 100%);
+}
+
+#writings {
+    background: linear-gradient( #E1BEE7 0%, #BBDEFB 100%);
+    text-decoration: underline !important;
+    color: darkblue !important;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.contact_1 h3 {
+    display: inline;
+}
